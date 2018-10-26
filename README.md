@@ -22,7 +22,7 @@ python train.py
 Vectorization
 ------------
 * [Notes](http://hertzcat.com/2018/10/26/ufldl-vectorization/)
-* [MNIST](http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz)
+* [MNIST](http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz) (download MNIST data)
 
 ```bash
 python train.py
