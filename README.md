@@ -18,3 +18,12 @@ Sparse Autoencoder
 ```bash
 python train.py
 ```
+
+Vectorization
+------------
+* [Notes](http://hertzcat.com/2018/10/26/ufldl-vectorization/)
+* [MNIST](http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz)
+
+```bash
+python train.py
+```
