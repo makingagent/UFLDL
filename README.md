@@ -27,3 +27,12 @@ Vectorization
 ```bash
 python train.py
 ```
+
+PCA and Whitening
+------------
+* [Notes](http://hertzcat.com/2018/11/04/ufldl-pca-and-whitening/)
+* [Assignment](http://ufldl.stanford.edu/wiki/index.php/Exercise:PCA_and_Whitening)
+
+```bash
+python pca_gen.py
+```
