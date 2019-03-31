@@ -50,5 +50,5 @@ Self-Taught Learning and Unsupervised Feature Learning
 * [Assignment](http://ufldl.stanford.edu/wiki/index.php/Exercise:Self-Taught_Learning)
 
 ```bash
-python softmaxExercise.py
+python stlExercise.py
 ```
