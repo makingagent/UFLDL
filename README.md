@@ -32,6 +32,7 @@ PCA and Whitening
 ------------
 * [Notes](http://hertzcat.com/2018/11/04/ufldl-pca-and-whitening/)
 * [Assignment](http://ufldl.stanford.edu/wiki/index.php/Exercise:PCA_and_Whitening)
+* Data：`IMAGES_RAW.mat`
 
 ```bash
 python pca_gen.py
@@ -40,6 +41,7 @@ python pca_gen.py
 Softmax Regression
 ------------
 * [Assignment](http://ufldl.stanford.edu/wiki/index.php/Exercise:Softmax_Regression)
+* Data：`train-images-idx3-ubyte`,`train-labels-idx1-ubyte`,`t10k-images.idx3-ubyte`,`t10k-labels.idx1-ubyte`
 
 ```bash
 python softmaxExercise.py
@@ -48,6 +50,7 @@ python softmaxExercise.py
 Self-Taught Learning and Unsupervised Feature Learning
 ------------
 * [Assignment](http://ufldl.stanford.edu/wiki/index.php/Exercise:Self-Taught_Learning)
+* Data：`train-images-idx3-ubyte`,`train-labels-idx1-ubyte`
 
 ```bash
 python stlExercise.py
