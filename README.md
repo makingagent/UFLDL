@@ -36,3 +36,19 @@ PCA and Whitening
 ```bash
 python pca_gen.py
 ```
+
+Softmax Regression
+------------
+* [Assignment](http://ufldl.stanford.edu/wiki/index.php/Exercise:Softmax_Regression)
+
+```bash
+python softmaxExercise.py
+```
+
+Self-Taught Learning and Unsupervised Feature Learning
+------------
+* [Assignment](http://ufldl.stanford.edu/wiki/index.php/Exercise:Self-Taught_Learning)
+
+```bash
+python softmaxExercise.py
+```
