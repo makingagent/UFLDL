@@ -55,3 +55,12 @@ Self-Taught Learning and Unsupervised Feature Learning
 ```bash
 python stlExercise.py
 ```
+
+Building Deep Networks for Classification
+------------
+* [Assignment](http://ufldl.stanford.edu/wiki/index.php/Exercise:_Implement_deep_networks_for_digit_classification)
+* Data：`train-images-idx3-ubyte`,`train-labels-idx1-ubyte`,`t10k-images.idx3-ubyte`,`t10k-labels.idx1-ubyte`
+
+```bash
+python stackedAEExercise.py
+```
