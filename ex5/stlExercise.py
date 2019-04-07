@@ -33,7 +33,7 @@ sparsityParam = 0.1  # desired average activation of the hidden units.
 		             #  in the lecture notes).
 _lambda = 3e-3       # weight decay parameter
 beta = 3            # weight of sparsity penalty term
-maxIter = 600
+maxIter = 400
 
 ## ======================================================================
 #  STEP 1: Load data from the MNIST database
@@ -78,7 +78,7 @@ print('# examples in supervised testing set: %d', testData.shape[1])
 theta = initializeParameters(hiddenSize, inputSize)
 opttheta = theta
 
-unlabeledData = unlabeledData[:,np.random.randint(unlabeledData.shape[1], size=10000)]
+# unlabeledData = unlabeledData[:,np.random.randint(unlabeledData.shape[1], size=10000)]
 costFunc = lambda p: sparseAutoencoderCost(p, inputSize, hiddenSize, _lambda, sparsityParam, beta, unlabeledData.T)
 res = minimize(costFunc, opttheta, method='L-BFGS-B', jac=True, bounds=None, options={'maxiter': maxIter, 'disp':True})
 opttheta = res.x
@@ -110,7 +110,7 @@ _lambda = 1e-4
 theta = 0.005 * np.random.randn(numClasses * inputSize)
 
 costFunc = lambda p: softmaxCost(p, numClasses, inputSize, _lambda, trainFeatures, trainLabels)
-res = minimize(costFunc, theta, method='L-BFGS-B', jac=True, bounds=None, options={'maxiter': 100, 'disp':True})
+res = minimize(costFunc, theta, method='L-BFGS-B', jac=True, bounds=None, options={'maxiter': maxIter, 'disp':True})
 theta = res.x
 
 input('Program paused. Press enter to continue.')

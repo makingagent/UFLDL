@@ -28,15 +28,12 @@ def sparseAutoencoderCost(theta, visibleSize, hiddenSize, _lambda, sparsityParam
         _lambda * np.sum(regTheta2 * regTheta2) / 2 + \
         beta * KL
 
-    delta1 = np.zeros(Theta1.shape)
-    delta2 = np.zeros(Theta2.shape)
-
     sparsity_delta = -sparsityParam / rho + (1.0 - sparsityParam) / (1.0 - rho)
-    for i in range(m):
-        d3 = (a3[i] - data[i]) * a3[i] * (1.0 - a3[i])
-        d2 = (np.dot(d3, Theta2)[1:] + beta * sparsity_delta) * a2[i][1:] * (1.0 - a2[i][1:])
-        delta1 = delta1 + np.dot(d2.reshape(-1, 1), a1[[i]])
-        delta2 = delta2 + np.dot(d3.reshape(-1, 1), a2[[i]])
+
+    d3 = (a3 - data) * a3 * (1.0 - a3)
+    d2 = (np.dot(d3, Theta2)[:,1:] + beta * sparsity_delta) * a2[:,1:] * (1.0 - a2[:,1:])
+    delta1 = np.dot(d2.T, a1)
+    delta2 = np.dot(d3.T, a2)
 
     regTheta1 = np.insert(regTheta1, 0, 0, axis=1)
     regTheta2 = np.insert(regTheta2, 0, 0, axis=1)
