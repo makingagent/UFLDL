@@ -64,3 +64,12 @@ Building Deep Networks for Classification
 ```bash
 python stackedAEExercise.py
 ```
+
+Linear Decoders with Autoencoders
+------------
+* [Assignment](http://ufldl.stanford.edu/wiki/index.php/Exercise:Learning_color_features_with_Sparse_Autoencoders)
+* Data：`stlSampledPatches.mat`
+
+```bash
+python linearDecoderExercise.py
+```
