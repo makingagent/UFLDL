@@ -22,7 +22,7 @@ input('Program paused. Press enter to continue.')
 ## Step 0b: Zero-mean the data (by row)
 #  You can make use of the mean and repmat/bsxfun functions.
 
-x = x - np.mean(x, axis=0)
+x = x - np.mean(x, axis=1).reshape(-1,1)
 
 ##================================================================
 ## Step 1a: Implement PCA to obtain xRot
