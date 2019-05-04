@@ -73,3 +73,12 @@ Linear Decoders with Autoencoders
 ```bash
 python linearDecoderExercise.py
 ```
+
+Working with Large Images
+------------
+* [Assignment](http://ufldl.stanford.edu/wiki/index.php/Exercise:Convolution_and_Pooling)
+* Data：`stlTestSubset.mat`,`stlTrainSubset.mat`
+
+```bash
+python cnnExercise.py
+```
