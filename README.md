@@ -1,5 +1,5 @@
 # UFLDL
-Notes and Assignments for UFLDL Tutorial - Python3 code
+[Notes](http://hertzcat.com/2019/05/08/ufldl-summary/) and Assignments for UFLDL Tutorial - Python3 code
 
 Depends
 ------------
@@ -21,7 +21,6 @@ python train.py
 
 Vectorization
 ------------
-* [Notes](http://hertzcat.com/2018/10/26/ufldl-vectorization/)
 * [MNIST](http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz) (download MNIST data)
 
 ```bash
@@ -30,7 +29,6 @@ python train.py
 
 PCA and Whitening
 ------------
-* [Notes](http://hertzcat.com/2018/11/04/ufldl-pca-and-whitening/)
 * [Assignment](http://ufldl.stanford.edu/wiki/index.php/Exercise:PCA_and_Whitening)
 * Data：`IMAGES_RAW.mat`
 
