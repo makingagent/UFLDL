@@ -9,6 +9,10 @@ pip install matplotlib
 pip install scipy
 ```
 
+Tips
+------------
+* Download data from assignment link before you run the exercise.
+
 Sparse Autoencoder
 ------------
 * [Notes](http://hertzcat.com/2018/10/20/ufldl-sparse-autoencoder/)
