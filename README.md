@@ -1,5 +1,5 @@
 # UFLDL
-[Notes](http://hertzcat.com/2019/05/08/ufldl-summary/) and Assignments for UFLDL Tutorial - Python3 code
+[Notes](http://makingagent.com/2019/05/08/ufldl-summary/) and Assignments for UFLDL Tutorial - Python3 code
 
 Depends
 ------------
@@ -15,7 +15,7 @@ Tips
 
 Sparse Autoencoder
 ------------
-* [Notes](http://hertzcat.com/2018/10/20/ufldl-sparse-autoencoder/)
+* [Notes](http://makingagent.com/2018/10/20/ufldl-sparse-autoencoder/)
 * [Assignment](https://github.com/hertzcat/UFLDL/blob/master/ex1/ex.pdf)
 * Data：`IMAGES.mat`
 
